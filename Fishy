@@ -1,4 +1,4 @@
-local HWID = loadstring(game:HttpGet("https://pastebin.com/raw/6y5XyLMZ"))()
+local HWIDTable = loadstring(game:HttpGet("https://pastebin.com/raw/6y5XyLMZ"))()
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 
 for i,v in pairs(HWIDTable) do
