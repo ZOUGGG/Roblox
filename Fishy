@@ -1,1 +1,8 @@
+local HWID = loadstring(game:HttpGet("https://pastebin.com/raw/6y5XyLMZ"))()
+local HWID = game:GetService("RbxAnallyticsService"):GetClientId()
 
+for i,v in pairs(HWIDTable) do
+    if v == HWID then
+        print("You can load the script now...")
+        loadstring(game:HttpGet("https://pastebin.com/raw/Afi4CTyZ"))()
+end
